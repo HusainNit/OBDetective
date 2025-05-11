@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Obdetective</string>
+	<string>Flutter Application 1</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>obdetective</string>
+	<string>OBDetective</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -45,7 +45,14 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
-    <key>NSBluetoothAlwaysUsageDescription</key>
-    <string>This app needs Bluetooth to function</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Need Bluetooth access to connect with OBD devices</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Need Bluetooth access to connect with OBD devices</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need location access to find nearby services</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Need location access to find nearby services</string>
+
 </dict>
 </plist>
