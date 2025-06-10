@@ -16,4 +16,52 @@ vehicle monitoring system, called OBDetective, using Flutter as the front-end, a
 
 ![Screenshot9](./images/screenShots/s9.png)![Screenshot10](./images/screenShots/s10.png)![Screenshot11](./images/screenShots/s11.png)![Screenshot12](./images/screenShots/s12.png)![Screenshot13](./images/screenShots/s13.png)![Screenshot14](./images/screenShots/s14.png)![Screenshot15](./images/screenShots/s15.png)
 
+# Tested on
+- Android 12 (API 31)
+- Android 20 (API 29)
+
+- toyota corolla 2019
+- toyota camry 2002
+
+
+
+# Features
+- Register vehicles
+- Retrieve vehicle DTC data
+- AI assistance
+- GPS service
+- Offline caching
+- Interface for mechanics
+- Interface for tow truck operators
+- Interface for vehicle owners
+
+# Technologies
+- Flutter
+- Firebase
+- OBD-II
+- AI
+- GPS
+- Offline caching
+
+
+# Installation
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/OBDetective.git
+```
+2. Install the dependencies
+```bash
+flutter pub get
+```
+3. Run the application
+```bash
+flutter run
+```
+# Future Plans
+- [ ] Add more features
+- [ ] Improve the user interface
+- [ ] Add more AI assistance
+- [ ] Add more GPS services
+- [ ] Add live chat support
+- [ ] Add support for multiple vehicles
 
