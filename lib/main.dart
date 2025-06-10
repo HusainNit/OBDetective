@@ -7,17 +7,15 @@ import 'firebase_options.dart';
 import 'pages/signin.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-// Function to request permissions for Bluetooth and Location services in the startup phase
-Future<void> requestPermissions() async {
-  await Permission.bluetooth.request();
-  await Permission.bluetoothScan.request();
-  await Permission.bluetoothConnect.request();
-  await Permission.location.request();
-}
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  try {
+    await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform);
+    print("Firebase initialized successfully");
+  } catch (e) {
+    print("Firebase initialization error: $e");
+  }
 
   runApp(const MyApp());
 }
@@ -33,7 +31,6 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    requestPermissions();
   }
 
   @override
