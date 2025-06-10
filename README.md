@@ -1,16 +1,19 @@
-# flutter_application_1
+<img style="width: 400px; display:block; margin:0 auto;" alt="Logo" src="./images/logo.png"/>
 
-A new Flutter project.
+<br>
+<br>
 
-## Getting Started
+# OBDetective
+vehicle monitoring system, called OBDetective, using Flutter as the front-end, and Firebase as the back-end. OBDetective is designed to help users register their vehicles and use an OBD-2 device to retrieve the vehicle computer Diagnostic Terminal Code (DTC) data. Moreover, the application provides a service to connect the mechanics and tow truck operators to the vehicle owners. Furthermore, the application is designed to provide AI assistance when analyzing DTC data, GPS service, and offline caching to the user while using the application. Lastly, the Application provides interfaces for each user that are designed to deliver functions for their needs, such as an interface for mechanics, tow truck operators, and vehicle owners alike.
 
-This project is a starting point for a Flutter application.
+# screenshots
+![Screenshot1](./images/screenShots/s1.png)![Screenshot2](./images/screenShots/s2.png)![Screenshot3](./images/screenShots/s3.png)![Screenshot5](./images/screenShots/s5.png)
+![Screenshot6](./images/screenShots/s6.png)
+![Screenshot7](./images/screenShots/s7.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Demo](./images/screenShots/s8.gif)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot9](./images/screenShots/s9.png)![Screenshot10](./images/screenShots/s10.png)![Screenshot11](./images/screenShots/s11.png)![Screenshot12](./images/screenShots/s12.png)![Screenshot13](./images/screenShots/s13.png)![Screenshot14](./images/screenShots/s14.png)![Screenshot15](./images/screenShots/s15.png)
+
+
